@@ -1,0 +1,44 @@
+.encabezado{
+    height: 15vh;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.encabezado__titulo{
+    font-size: 3em;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.cuerpo{
+    background-color: rgb(164, 194, 250);
+    width: 80vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.user{
+    
+    background-color: aliceblue;
+    width: 30vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
