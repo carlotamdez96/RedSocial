@@ -16,7 +16,14 @@ function pintaUsuarios(argumentos){
         for (let usuario of argumentos) {
             var user = document.createElement("div");
             user.classList.add("user");
-            user.innerHTML=`
+            var contenedor1 = document.createElement("div");
+            contenedor1.classList.add("contenedor1");
+            var contenedor2 = document.createElement("div");
+            contenedor2.classList.add("contenedor2");
+            contenedor1.innerHTML=`
+            
+            `
+            contenedor2.innerHTML=`
         
             <h2 class="user__nombre">${usuario.name}</h2>
             <ul class="user__datos">
